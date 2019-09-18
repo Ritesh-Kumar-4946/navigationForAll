@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/mm"
+    android:fitsSystemWindows="true">
+
+    <android.support.design.widget.AppBarLayout
+        style="@style/mw"
+        android:fitsSystemWindows="true"
+        android:theme="@style/AppBarTheme.AppBarOverlay"
+        app:elevation="0dp">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/dl_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorRed_niveshLogo"
+            android:elevation="@dimen/_5sdp"
+            app:contentInsetLeft="0dp"
+            app:contentInsetStart="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginStart="0dp"
+            app:popupTheme="@style/AppBarTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/dr_content_main" />
+
+
+</android.support.design.widget.CoordinatorLayout>

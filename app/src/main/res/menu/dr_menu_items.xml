@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_menu_dashboard"
+            android:icon="@drawable/ic_nav_dashboard_grey"
+            android:title="DashBoard" />
+
+        <item
+            android:id="@+id/nav_menu_clients"
+            android:icon="@drawable/ic_nav_clients_grey"
+            android:title="Clients" />
+
+        <item
+            android:id="@+id/nav_menu_marketing"
+            android:icon="@drawable/ic_nav_marketing_grey"
+            android:title="Marketing" />
+
+        <item
+            android:id="@+id/nav_menu_daily_transections"
+            android:icon="@drawable/ic_nav_daily_transaction_grey"
+            android:title="Daily Transections" />
+
+        <item
+            android:id="@+id/nav_menu_sip_decline"
+            android:icon="@drawable/ic_nav_sip_decline_grey"
+            android:title="Sip Decline" />
+
+        <item
+            android:id="@+id/nav_menu_alerts"
+            android:icon="@drawable/ic_nav_alerts_grey"
+            android:title="Alerts" />
+
+        <item
+            android:id="@+id/nav_menu_view_orders"
+            android:icon="@drawable/ic_nav_view_orders_grey"
+            android:title="View Orders" />
+
+        <item
+            android:id="@+id/nav_menu_content"
+            android:icon="@drawable/ic_nav_content_grey"
+            android:title="Content" />
+
+    </group>
+
+    <item android:title="My Saves">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_menu_language_switch"
+                    android:icon="@drawable/ic_nav_language_switch_grey"
+                    android:title="Language Switch" />
+
+                <item
+                    android:id="@+id/nav_menu_change_password"
+                    android:icon="@drawable/ic_nav_password_change_grey"
+                    android:title="Change Password" />
+
+                <item
+                    android:id="@+id/nav_menu_contact"
+                    android:icon="@drawable/ic_nav_contact_grey"
+                    android:title="Contact" />
+
+                <item
+                    android:id="@+id/nav_menu_sip_detail"
+                    android:icon="@drawable/ic_nav_sip_decline_grey"
+                    android:title="Sip Detail" />
+
+                <item
+                    android:id="@+id/nav_menu_exit"
+                    android:icon="@drawable/ic_nav_exit_grey"
+                    android:title="Exit" />
+            </group>
+        </menu>
+    </item>
+
+</menu>

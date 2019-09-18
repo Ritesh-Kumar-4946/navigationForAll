@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/mm"
+    tools:context=".activity.splash.SplashActivity">
+
+    <ImageView
+        android:id="@+id/iv_splashlogo"
+        style="@style/ww"
+        android:layout_centerInParent="true"
+        android:adjustViewBounds="true"
+        android:paddingStart="@dimen/_25sdp"
+        android:paddingEnd="@dimen/_25sdp"
+        app:srcCompat="@drawable/ic_nivesh_logo" />
+
+    <TextView
+        style="@style/ww"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/_5sdp"
+        android:text="v3.0"
+        android:textColor="@color/colorGrey"
+        android:textSize="@dimen/_12ssp" />
+
+</RelativeLayout>

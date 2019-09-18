@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/mm">
+
+    <LinearLayout
+        android:id="@+id/ll_rootcontainer_login"
+        style="@style/LL_m_w_v"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/iv_splashlogo"
+            style="@style/ww"
+            android:layout_gravity="center_horizontal"
+            android:adjustViewBounds="true"
+            android:paddingStart="@dimen/_40sdp"
+            android:paddingEnd="@dimen/_25sdp"
+            app:srcCompat="@drawable/ic_logo_nivesh" />
+
+
+        <ScrollView
+            android:id="@+id/sv_login"
+            style="@style/mw">
+
+            <LinearLayout
+                android:id="@+id/ll_container_scroll"
+                style="@style/LL_m_w_v">
+
+
+                <LinearLayout
+                    android:id="@+id/ll_container_login_fields"
+                    style="@style/LL_m_w_v"
+                    android:paddingStart="@dimen/_20sdp"
+                    android:paddingTop="@dimen/_10sdp"
+                    android:paddingEnd="@dimen/_20sdp"
+                    android:paddingBottom="@dimen/_10sdp">
+
+                    <EditText
+                        android:id="@+id/edt_login_email"
+                        style="@style/EdtLoginSign"
+                        android:hint="@string/edt_hint_email"
+                        android:inputType="textEmailAddress" />
+
+
+                    <RelativeLayout
+                        style="@style/ww"
+                        android:layout_marginTop="@dimen/_10sdp">
+
+                        <EditText
+                            android:id="@+id/edt_login_password"
+                            style="@style/EdtLoginSign"
+                            android:hint="@string/edt_hint_password"
+                            android:inputType="textPassword"
+                            android:paddingStart="@dimen/_10sdp"
+                            android:paddingEnd="@dimen/_50sdp" />
+
+                        <ImageView
+                            android:id="@+id/iv_password_toggle"
+                            android:layout_width="@dimen/_20sdp"
+                            android:layout_height="@dimen/_20sdp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginEnd="@dimen/_10sdp"
+                            android:adjustViewBounds="true"
+                            app:srcCompat="@drawable/ic_eye_blue_dark_close" />
+
+                    </RelativeLayout>
+
+
+                    <TextView
+                        android:id="@+id/tv_lostpassword_title"
+                        style="@style/ww"
+                        android:layout_gravity="end"
+                        android:padding="@dimen/_5sdp"
+                        android:text="Lost password"
+                        android:textSize="@dimen/_10ssp" />
+
+                </LinearLayout>
+
+
+                <Button
+                    android:id="@+id/btn_login"
+                    style="@style/mw"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginStart="@dimen/_80sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginEnd="@dimen/_80sdp"
+                    android:background="@drawable/bg_btn_login_blue"
+                    android:text="@string/btn_login"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/_12ssp" />
+
+                <LinearLayout
+                    style="@style/LL_m_w_h"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/tv_login_agree_title"
+                        style="@style/Text10ssp"
+                        android:paddingEnd="@dimen/_1sdp"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/_8ssp" />
+
+                    <!--<TextView
+                        android:id="@+id/tv_login_tnc_title"
+                        style="@style/Text10ssp"
+                        android:paddingStart="@dimen/_1sdp"
+                        android:text="@string/txt_tnc"
+                        android:textColor="@color/colorLink_dark_blue" />-->
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_container_login_icons"
+                    style="@style/LL_m_w_h"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:paddingStart="@dimen/_50sdp"
+                    android:paddingTop="@dimen/_5sdp"
+                    android:paddingEnd="@dimen/_50sdp"
+                    android:paddingBottom="@dimen/_5sdp">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/_40sdp"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        app:srcCompat="@drawable/ic_login_googleplus" />
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/_20sdp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight=".01"
+                        android:background="@color/colorBlue_nivesh" />
+
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/_40sdp"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        app:srcCompat="@drawable/ic_login_facebook" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    style="@style/LL_m_w_h"
+                    android:layout_marginBottom="@dimen/_50sdp"
+                    android:gravity="center">
+
+
+                    <TextView
+                        android:id="@+id/tv_no_account_title"
+                        style="@style/Text10ssp"
+                        android:paddingStart="@dimen/_5sdp"
+                        android:paddingEnd="@dimen/_1sdp"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/_8ssp" />
+
+                    <!--<TextView
+                        android:id="@+id/tv_signup_title"
+                        style="@style/Text10ssp"
+                        android:text="@string/txt_signup" />-->
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>

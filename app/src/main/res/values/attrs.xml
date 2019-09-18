@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- navigation drawer (Start)-->
+    <declare-styleable name="advDrawerLayout">
+        <attr name="adl_customBehavior" format="boolean" />
+        <attr name="adl_viewScale" format="float" />
+        <attr name="adl_viewScrimColor" format="color" />
+        <attr name="adl_viewElevation" format="dimension" />
+        <attr name="adl_drawerElevation" format="dimension" />
+    </declare-styleable>
+    <!-- navigation drawer (End)-->
+
+
+    <!-- textview with drawable with custom height and width for drawable(Start)-->
+    <declare-styleable name="TextViewRichDrawable">
+        <!--https://stackoverflow.com/questions/9168021/compounddrawable-size-->
+        <attr name="compoundDrawableWidth" format="dimension"/>
+        <attr name="compoundDrawableHeight" format="dimension"/>
+        <attr name="drawableStartVector" format="reference" />
+        <attr name="drawableTopVector" format="reference" />
+        <attr name="drawableEndVector" format="reference" />
+        <attr name="drawableBottomVector" format="reference" />
+        <attr name="drawableTint" format="reference" />
+    </declare-styleable>
+    <!-- textview with drawable with custom height and width for drawable(End)-->
+
+
+</resources>

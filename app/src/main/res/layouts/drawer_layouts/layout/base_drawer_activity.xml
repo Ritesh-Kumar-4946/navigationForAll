@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nivesh.production.utils.niveshProperty.AdvanceDrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/adl_drawer"
+    style="@style/mm"
+    android:background="@color/colorBlue_niveshLogo"
+    android:fitsSystemWindows="true"
+    tools:context=".activity.baseActivity.BaseDrawerActivity"
+    tools:openDrawer="start">
+
+    <include layout="@layout/dr_app_bar_main" />
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nv_base_drawer"
+        style="@style/wm"
+        android:layout_gravity="start"
+        android:background="@color/colorBlue_niveshLogo"
+        android:fitsSystemWindows="false"
+        android:theme="@style/AppTheme.NavigationView"
+        app:headerLayout="@layout/dr_nav_header"
+        app:itemBackground="@drawable/bg_dr_item_drawable"
+        app:itemIconTint="@color/colorWhite"
+        app:itemTextColor="@color/colorWhite"
+        app:menu="@menu/dr_menu_items" />
+
+    <!--https://stackoverflow.com/questions/30886453/change-the-color-of-a-checked-menu-item-in-a-navigation-drawer-->
+
+</com.nivesh.production.utils.niveshProperty.AdvanceDrawerLayout>

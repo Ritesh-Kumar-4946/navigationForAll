@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/mm"
+    tools:context=".activity.registeration.RegisterActivity">
+
+
+    <ImageView
+        android:id="@+id/iv_reg_logo"
+        style="@style/ww"
+        android:layout_gravity="center_horizontal"
+        android:adjustViewBounds="true"
+        android:paddingStart="@dimen/_40sdp"
+        android:paddingEnd="@dimen/_25sdp"
+        app:srcCompat="@drawable/ic_logo_nivesh" />
+
+
+    <ScrollView
+        android:id="@+id/sv_reg"
+        style="@style/mw"
+        android:layout_below="@id/iv_reg_logo">
+
+        <LinearLayout
+            android:id="@+id/ll_container_scroll"
+            style="@style/LL_m_w_v">
+
+
+            <LinearLayout
+                android:id="@+id/ll_container_reg_fields"
+                style="@style/LL_m_w_v"
+                android:paddingStart="@dimen/_20sdp"
+                android:paddingTop="@dimen/_10sdp"
+                android:paddingEnd="@dimen/_20sdp"
+                android:paddingBottom="@dimen/_10sdp">
+
+                <EditText
+                    android:id="@+id/edt_reg_name"
+                    style="@style/EdtLoginSign"
+                    android:hint="@string/edt_hint_name"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/edt_reg_email"
+                    style="@style/EdtLoginSign"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:hint="@string/edt_hint_email"
+                    android:inputType="textEmailAddress" />
+
+                <EditText
+                    android:id="@+id/edt_reg_mob"
+                    style="@style/EdtLoginSign"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:hint="@string/edt_hint_mobile"
+                    android:inputType="number" />
+
+
+                <RelativeLayout
+                    style="@style/ww"
+                    android:layout_marginTop="@dimen/_10sdp">
+
+                    <EditText
+                        android:id="@+id/edt_reg_password"
+                        style="@style/EdtLoginSign"
+                        android:hint="@string/edt_hint_password"
+                        android:inputType="textPassword"
+                        android:paddingStart="@dimen/_10sdp"
+                        android:paddingEnd="@dimen/_50sdp" />
+
+                    <ImageView
+                        android:id="@+id/iv_reg_password_toggle"
+                        android:layout_width="@dimen/_20sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="@dimen/_10sdp"
+                        android:adjustViewBounds="true"
+                        app:srcCompat="@drawable/ic_eye_blue_dark_close" />
+
+                </RelativeLayout>
+
+                <EditText
+                    android:id="@+id/edt_reg_broker_code"
+                    style="@style/EdtLoginSign"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:hint="@string/edt_hint_code"
+                    android:inputType="number" />
+
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/btn_register"
+                style="@style/mw"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="@dimen/_80sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginEnd="@dimen/_80sdp"
+                android:background="@drawable/bg_btn_login_blue"
+                android:text="@string/btn_register"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/_12ssp" />
+
+
+            <LinearLayout
+                style="@style/LL_m_w_h"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/tv_agree_title"
+                    style="@style/Text10ssp"
+                    android:paddingEnd="@dimen/_1sdp"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/_8ssp" />
+
+                <!--<TextView
+                    android:id="@+id/tv_tnc_title"
+                    style="@style/Text10ssp"
+                    android:paddingStart="@dimen/_1sdp"
+                    android:text="@string/txt_tnc"
+                    android:textColor="@color/colorLink_dark_blue"
+                    android:visibility="gone" />-->
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_container_login_icons"
+                style="@style/LL_m_w_h"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:paddingStart="@dimen/_50sdp"
+                android:paddingTop="@dimen/_5sdp"
+                android:paddingEnd="@dimen/_50sdp"
+                android:paddingBottom="@dimen/_5sdp">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    app:srcCompat="@drawable/ic_login_googleplus" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight=".01"
+                    android:background="@color/colorBlue_nivesh" />
+
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    app:srcCompat="@drawable/ic_login_facebook" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                style="@style/LL_m_w_h"
+                android:layout_marginBottom="@dimen/_50sdp"
+                android:gravity="center">
+
+
+                <TextView
+                    android:id="@+id/tv_account_title"
+                    style="@style/Text10ssp"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/_8ssp" />
+
+                <!--<TextView
+                    android:id="@+id/tv_signin_title"
+                    style="@style/Text10ssp"
+                    android:text="@string/txt_signin"
+                    android:visibility="gone" />-->
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

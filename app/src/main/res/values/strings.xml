@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Nivesh.com</string>
+
+    <!--Shared Preference-->
+    <string name="share_preference_name">GenieTalk</string>
+    <!--!shared Preference-->
+
+    <string name="txt_sign_in">SIGN IN</string>
+    <string name="txt_sign_up">SIGN UP</string>
+    <string name="edt_hint_email">Email id</string>
+    <string name="edt_hint_name">Full name</string>
+    <string name="edt_hint_mobile">Mobile</string>
+    <string name="edt_hint_password">Password</string>
+    <string name="edt_hint_code">Enter Code</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="txt_agree">By logging in you agree to</string>
+    <string name="txt_tnc"><u>Terms &amp; Conditions</u></string>
+    <string name="txt_agreee">By logging in you agree to Terms &amp; Conditions</string>
+    <string name="txt_no_account">Don\'t have an account yet? Sign Up</string><!-- 27-35 -->
+    <string name="txt_signup"><u>Sign Up</u></string>
+    <string name="txt_already_account">Already have an account? Sign In</string> <!-- 26-32  -->
+    <string name="txt_signin"><u>Sign In</u></string> <!-- 26-32  -->
+    <string name="rupees_symbol">\u20B9 0000000000</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_right_drawer">Right Drawer</string>
+
+    <string name="nav_item_dashboard">DASHBOARD</string>
+
+    <!--<string name="txt_agreee">By logging in you agree to <font fgcolor='#3c42b3'><u>Terms &amp; Conditions</u></font></string> // work only in api 28-->
+
+    <!--<string name="txt_account"><font fgcolor='#b3b3b3'>Don\'t have an account yet?</font><font fgcolor='#F50000'> Sign Up</font></string>-->
+
+    <!--<string name="txt_already_account"><font fgcolor='#b3b3b3'>Already have an account?</font><font fgcolor='#F50000'> Sign In</font></string>-->
+
+
+</resources>

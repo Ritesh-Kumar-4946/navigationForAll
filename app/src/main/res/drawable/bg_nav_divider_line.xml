@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item_one"
+        android:drawable="@drawable/bg_nav_divider_1" />
+
+    <item
+        android:id="@+id/item_two"
+        android:drawable="@drawable/bg_nav_divider_2" />
+
+    <item
+        android:id="@+id/item_three"
+        android:drawable="@drawable/bg_nav_divider_3" />
+
+    <!--<item-->
+        <!--android:id="@+id/item_four"-->
+        <!--android:drawable="@drawable/bg_nav_divider_4" />-->
+
+    <!--<item-->
+        <!--android:id="@+id/item_five"-->
+        <!--android:drawable="@drawable/bg_nav_divider_5" />-->
+</layer-list>

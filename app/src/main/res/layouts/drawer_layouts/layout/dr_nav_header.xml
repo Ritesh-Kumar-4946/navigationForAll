@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_nav_header"
+    style="@style/LL_m_w_v"
+    android:background="@color/colorBlue_niveshLogo"
+    android:baselineAligned="false"
+    android:gravity="center_vertical">
+
+    <!--
+    android:clickable="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:descendantFocusability="blocksDescendants"
+    https://github.com/sephiroth74/HorizontalVariableListView/issues/33-->
+
+    <LinearLayout
+        style="@style/LL_m_w_v"
+        android:paddingStart="@dimen/_20sdp"
+        android:paddingTop="@dimen/_10sdp">
+
+
+        <LinearLayout style="@style/LL_m_w_h">
+
+            <TextView
+                android:id="@+id/tv_nav_username"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:layout_weight="4"
+                android:ellipsize="end"
+                android:ems="3"
+                android:maxLines="2"
+                android:text="Manju Rajesh"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/_12ssp" />
+
+            <ImageView
+                android:id="@+id/iv_nav_login_type"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_15sdp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/ic_nav_google_plus" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_nav_joined_date"
+            style="@style/ww"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:text="Joined - 6th Apr, 2017"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/_8ssp" />
+
+        <TextView
+            android:id="@+id/tv_nav_user_amount"
+            style="@style/ww"
+            android:text="@string/rupees_symbol"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/_8ssp" />
+
+
+        <LinearLayout
+            android:id="@+id/ll_container_account_switch"
+            style="@style/LL_w_w_h"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:background="@drawable/bg_nav_switch_user_grey"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:padding="@dimen/_5sdp">
+
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingStart="@dimen/_5sdp"
+                android:paddingTop="@dimen/_2sdp"
+                android:paddingEnd="@dimen/_1sdp"
+                android:paddingBottom="@dimen/_2sdp">
+
+                <ImageView
+                    android:layout_width="@dimen/_15sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    app:srcCompat="@drawable/ic_nav_changeuser_grey" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tv_nav_switch_profile"
+                style="@style/ww"
+                android:paddingStart="@dimen/_1sdp"
+                android:paddingEnd="@dimen/_5sdp"
+                android:text="Switch"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/_10ssp" />
+
+        </LinearLayout>
+
+        <!--<RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tv_nav_joined_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="Joined - 6th Apr, 2017"
+                android:textColor="@color/colorGrey_light"
+                android:textSize="@dimen/_8ssp" />
+
+            <View
+                android:id="@+id/vv_nav_divide"
+                android:layout_width="1dp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_marginStart="@dimen/_3sdp"
+                android:layout_marginEnd="@dimen/_3sdp"
+                android:layout_toEndOf="@id/tv_nav_joined_date"
+                android:background="@color/colorGrey_light" />
+
+            <TextView
+                android:id="@+id/tv_nav_user_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/vv_nav_divide"
+                android:text="@string/rupees_symbol"
+                android:textColor="@color/colorGrey_light"
+                android:textSize="@dimen/_8ssp" />
+
+        </RelativeLayout>-->
+    </LinearLayout>
+
+    <View
+        android:id="@+id/vv_nav_divide"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/colorWhite"
+        android:paddingBottom="@dimen/_10sdp" />
+
+</LinearLayout>
+
+

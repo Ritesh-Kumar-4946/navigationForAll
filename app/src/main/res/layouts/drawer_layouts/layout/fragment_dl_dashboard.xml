@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/rl_dl_dashboard"
+        style="@style/LL_m_w_h"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorBlue_niveshLogo">
+
+        <LinearLayout
+            android:id="@+id/ll_dl_dashboard_client"
+            style="@style/LinearLayout1"
+            tools:ignore="UseCompoundDrawables">
+
+            <!--<ImageView
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
+                app:srcCompat="@drawable/ic_nav_dashboard_grey" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DashBoard" />-->
+
+            <com.nivesh.production.utils.niveshProperty.textview_drawable.TextViewRichDrawable
+                android:id="@+id/tvrd_dashboard"
+                style="@style/TextRichDrawable"
+                android:text="DashBoard"
+                app:compoundDrawableHeight="@dimen/_15sdp"
+                app:compoundDrawableWidth="@dimen/_15sdp"
+                app:drawableTopVector="@drawable/ic_nav_dashboard_grey" />
+
+
+        </LinearLayout>
+
+        <include layout="@layout/include_divider_vertical" />
+
+        <LinearLayout
+            android:id="@+id/ll_dl_dashboard_client1"
+            style="@style/LinearLayout1">
+
+            <!--<ImageView-->
+            <!--android:layout_width="@dimen/_25sdp"-->
+            <!--android:layout_height="@dimen/_25sdp"-->
+            <!--app:srcCompat="@drawable/ic_nav_daily_transaction_grey" />-->
+
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Daily Transection" />-->
+
+
+            <com.nivesh.production.utils.niveshProperty.textview_drawable.TextViewRichDrawable
+                style="@style/TextRichDrawable"
+                android:text="Daily Transection"
+                app:compoundDrawableHeight="@dimen/_15sdp"
+                app:compoundDrawableWidth="@dimen/_15sdp"
+                app:drawableTopVector="@drawable/ic_nav_daily_transaction_grey" />
+
+        </LinearLayout>
+
+        <include layout="@layout/include_divider_vertical" />
+
+        <LinearLayout
+            android:id="@+id/ll_dl_dashboard_client2"
+            style="@style/LinearLayout1">
+
+            <!--<ImageView-->
+            <!--android:layout_width="@dimen/_25sdp"-->
+            <!--android:layout_height="@dimen/_25sdp"-->
+            <!--app:srcCompat="@drawable/ic_nav_sip_decline_grey" />-->
+
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="SIP Decline" />-->
+
+
+            <com.nivesh.production.utils.niveshProperty.textview_drawable.TextViewRichDrawable
+                style="@style/TextRichDrawable"
+                android:text="SIP Decline"
+                app:compoundDrawableHeight="@dimen/_15sdp"
+                app:compoundDrawableWidth="@dimen/_15sdp"
+                app:drawableTopVector="@drawable/ic_nav_sip_decline_grey" />
+
+
+        </LinearLayout>
+
+        <include layout="@layout/include_divider_vertical" />
+
+        <LinearLayout
+            android:id="@+id/ll_dl_dashboard_client3"
+            style="@style/LinearLayout1">
+
+            <!--<ImageView-->
+            <!--android:layout_width="@dimen/_25sdp"-->
+            <!--android:layout_height="@dimen/_25sdp"-->
+            <!--app:srcCompat="@drawable/ic_nav_alerts_grey" />-->
+
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Alerts" />-->
+
+
+            <com.nivesh.production.utils.niveshProperty.textview_drawable.TextViewRichDrawable
+                style="@style/TextRichDrawable"
+                android:text="Alerts"
+                app:compoundDrawableHeight="@dimen/_15sdp"
+                app:compoundDrawableWidth="@dimen/_15sdp"
+                app:drawableTopVector="@drawable/ic_nav_alerts_grey" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:gravity=""
+        android:text="DashBoard Fragment"
+        android:textSize="@dimen/_20ssp" />
+
+
+</RelativeLayout>

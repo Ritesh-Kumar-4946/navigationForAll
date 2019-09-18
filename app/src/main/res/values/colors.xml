@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+
+
+    <color name="colorTextPrimary">#FFFFFF</color>
+    <color name="colorTextDisable">#66FFFFFF</color>
+
+    <color name="colorRed_niveshLogo">#ec1e24</color>
+    <color name="colorBlue_niveshLogo">#20295c</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorWhite_x">#f9f9f9</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorGrey_x">#585858</color>
+    <color name="colorGrey">#636363</color>
+    <color name="colorGrey_light">#959595</color>
+    <color name="colorGrey_xlight">#b3b3b3</color>
+    <color name="colorGrey_xxlight">#dedede</color>
+    <color name="colorBlue_nivesh">#21245F</color>
+    <color name="colorBlue_nivesh_light">#3c42b3</color>
+    <color name="colorBlue_nivesh_xxxlight">#e9eafa</color>
+    <color name="colorRed_nivesh">#F50000</color>
+    <color name="colorRed_nivesh_light">#fa5c5c</color>
+    <color name="colorRed_nivesh_dark">#9e0202</color>
+    <color name="colorLink_dark_blue">#5962ba</color>
+    <color name="colorNav_header">#0051A1</color>
+    <color name="colorNav_bg">#fff2f2</color>
+    <color name="colorNav_drawerItem">#f71735</color>
+    <color name="colorRed_drawerRedx">#C8253D</color>
+    <color name="colorNav_drawerText">#FFEDEE</color>
+    <color name="colorNav_dividerRedx">#C8253D</color>
+    <color name="colorNav_dividerRedxx">#C9203C</color>
+    <color name="colorNav_dividerRedxxx">#E23951</color>
+</resources>
